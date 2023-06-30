@@ -1,0 +1,32 @@
+//3_NPC_3_1 (The Mayor before first fight)
+Well what do we have here ?
+//3_NPC_3_1 (The Mayor before first fight)
+I suppose you don't know any better than to meddle in my affairs.
+//3_NPC_3_1 (The Mayor before first fight)
+I do not know what you hope to achieve here, but it is futile.
+//3_NPC_3_1 (The Mayor before first fight)
+Now begone with you !
+//3_NPC_3_2 (The Mayor after fight 1)
+Hmph . . .
+//3_NPC_3_2 (The Mayor after fight 1)
+You do have some skills, I will grant you that.
+//3_NPC_3_2 (The Mayor after fight 1)
+Unfortunately for you, the world is much larger than our small province.
+//3_NPC_3_2 (The Mayor after fight 1)
+You wouldn't even understand if I tried to explain it.
+//3_NPC_3_2 (The Mayor after fight 1)
+But I can show you.
+//3_NPC_3_3 (The Mayor after fight 2)
+Argh !
+//3_NPC_3_3 (The Mayor after fight 2)
+But how !? I've invested so much in obtaining those items.
+//3_NPC_3_3 (The Mayor after fight 2)
+You have no idea who you are dealing with !
+//3_NPC_3_3 (The Mayor after fight 2)
+But no matter, I might have failed here,
+//3_NPC_3_3 (The Mayor after fight 2)
+But I am but one of many.
+//3_NPC_3_3 (The Mayor after fight 2)
+You will see in due time,
+//3_NPC_3_3 (The Mayor after fight 2)
+How use...less your fi..ght i....s

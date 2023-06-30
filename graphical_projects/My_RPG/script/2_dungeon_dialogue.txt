@@ -1,0 +1,28 @@
+//2_NPC_1_1 (Soldier waiting in the mines)
+Are you the help we were promised ?
+//2_NPC_1_1 (Soldier waiting in the mines)
+Well even if you aren't we really need capable hands right now.
+//2_NPC_1_1 (Soldier waiting in the mines)
+Bandits have taken over the mine !
+//2_NPC_1_1 (Soldier waiting in the mines)
+They are too well equipped for us to overpower them.
+//2_NPC_1_1 (Soldier waiting in the mines)
+and they are organized to be a random group of bandits.
+//2_NPC_1_1 (Soldier waiting in the mines)
+Something isn't right about this.
+//2_NPC_1_1 (Soldier waiting in the mines)
+Help us thin out their numbers.
+//2_NPC_1_2 (soldier after defeating 20 mobs)
+You are more than we hoped for.
+//2_NPC_1_2 (soldier after defeating 20 mobs)
+We might be able to take it back if their leader gets taken down.
+//2_NPC_1_2 (soldier after defeating 20 mobs)
+I've heard he was somewhere deep within the mine.
+//2_NPC_1_2 (soldier after defeating 20 mobs)
+If you manage to stop him then there is still hope for the miners.
+//2_NPC_1_3 (soldier after deafeating bandit leader)
+Thank you so much for the help.
+//2_NPC_1_3 (soldier after deafeating bandit leader)
+You have no idea how many will be able to live through the winter thanks to you.
+//2_NPC_1_3 (soldier after deafeating bandit leader)
+But with this matter handled, the mayor of Fernsworth might be looking for you.

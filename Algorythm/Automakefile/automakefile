@@ -1,0 +1,213 @@
+#!/bin/sh
+
+if [ $# -eq 0 ]; then
+    echo "no file given" >&2
+    exit 84
+fi
+file="$1"
+if [[ ! -f $file ]]; then
+    echo "invalid file" >&2
+    exit 84
+fi
+if [[ $file == *.h ]]; then
+    echo "invalid file" >&2
+    exit 84
+fi
+if [[ -f "Makefile" ]]; then
+    rm -f "Makefile"
+fi
+
+echo -e "##\n## EPITECH PROJECT, 2023\n## B-SYN-200-NAN-2-1-automakefile-tibaud.le-maout\n## File description:\n## Makefile\n##\n" > Makefile
+
+arr=()
+src=()
+header=()
+IFS=$'\n'
+
+while IFS= read -r line
+do
+    arr+=("$line")
+done < "$file"
+arr+=("$line")
+
+
+found_dir=0
+project_dir=
+source_dir=.
+header_dir=include
+lib_dir=
+exec=a.out
+cc="gcc"
+cflags=
+ldflags=
+bck_dir=backup/
+zip=tar
+zipflags=-cvf
+unzip=tar
+unzipflags=-xvf
+
+for i in "${arr[@]}"
+do
+    IFS=';' read -r -a order <<< "$i"
+    case ${order[0]} in
+      "PROJECT_DIR")
+        project_dir="${order[1]}"
+        found_dir=1
+        ;;
+      "SOURCES_DIR")
+        source_dir="${order[1]}"
+        ;;
+      "HEADERS_DIR")
+        header_dir="${order[1]}"
+        ;;
+      "LIBS_DIR")
+        lib_dir="${order[1]}"
+        ;;
+      "EXEC") 
+        exec="${order[1]}"
+        ;;
+      "CC")
+        cc="${order[1]}"
+        ;;
+      "CFLAGS")
+        cflags="${order[1]}"
+        ;;
+      "LDFLAGS")
+        ldflags="${order[1]}"
+        ;;
+      "BCK_DIR")
+        bck_dir="${order[1]}"
+        ;;
+      "ZIP")
+        zip="${order[1]}"
+        ;;
+      "ZIPFLAGS")
+        zipflags="${order[1]}"
+        ;;
+      "UNZIP")
+        unzip="${order[1]}"
+        ;;
+      "UNZIPFLAGS")
+        unzipflags="${order[1]}"
+        ;;
+    esac
+done
+
+found_src=0
+for i in "${arr[@]}"
+do
+    IFS=';' read -r -a order <<< "$i"
+    if [[ ${order[0]} == *.c ]];then
+        src+=($order)
+        found_src=1
+    fi
+    if [[ ${order[1]} == *.h ]];then
+        IFS=' ' read -r -a chunks <<< "${order[1]}"
+        for chunk in "${chunks[@]}";
+        do
+            header+=("$chunk")
+        done
+    fi
+done
+
+if [[ $found_dir != 1 ]]; then
+    echo "no PROJECT_DIR" >&2
+    rm -f Makefile
+    exit 84
+fi
+
+if [[ $found_src != 1 ]]; then
+    echo "no SRC found" >&2
+    rm -f Makefile
+    exit 84
+fi
+
+for i in "${src[@]}"
+do
+    if [[ ! -f $project_dir/$i ]]; then
+        echo -e "file $i doesn't exist"
+        exit 84
+    fi
+done
+
+index=0
+for i in "${src[@]}"
+do
+    if [[ $index == 0 ]]; then
+      echo -e "SRC=\t$source_dir/$i\t\\" >> Makefile
+      index=1
+    else
+      echo -e "\t\t$source_dir/$i\t\\" >> Makefile
+      index=1
+    fi
+done
+
+echo -e "\nOBJ=\t\$(SRC:.c=.o)\n" >> Makefile
+
+echo -e "EXEC=\t$exec\n" >> Makefile
+
+echo -e "CC=\t$cc\n" >> Makefile
+echo -e "CFLAGS=\t-I ./\$(HEADER_DIR) $cflags\n" >> Makefile
+
+echo -e "LIB=\t-L ./$lib_dir\n" >> Makefile
+
+echo -e "HEADER_DIR=\t$header_dir\n" >> Makefile
+
+index=0
+for h in "${header[@]}"
+do
+    if [[ $index == 0 ]]; then
+        echo -e "INCLUDE=\t-I ./\$(HEADER_DIR)\t\\" >> Makefile
+        index=1
+    else
+        echo -e "\t\t\t./\$(HEADER_DIR)/$h\t\\" >> Makefile
+        index=1
+    fi
+done
+
+if [[ ! -z $ldflags ]]; then
+    echo -e "\nLDFLAGS=\t$ldflags\n" >> Makefile
+else
+    echo -e "\nLDFlAGS=\n" >> Makefile
+fi
+echo -e "BCK_DIR=\t$bck_dir\n" >> Makefile
+echo -e "ZIP=\t$zip\n" >> Makefile
+echo -e "ZIPFLAGS=\t$zipflags\n" >> Makefile
+echo -e "UNZIP=\t$unzip\n" >> Makefile
+echo -e "UNZIPFLAGS=\t$unzipflags\n" >> Makefile
+
+echo -e "all: \$(EXEC)\n" >> Makefile
+echo -e "\$(EXEC): \$(OBJ)" >> Makefile
+echo -e "\t\tar rc ./$lib_dir/libmy.a \$(OBJ)" >> Makefile
+echo -e "\t\t\$(CC) \$(CFLAGS) \$(LDFLAGS) -o \$(EXEC) \$(SRC) \$(LIB)\n" >> Makefile
+
+echo -e "clean:\n\t\trm -f \$(OBJ)\n\t\trm -f *.gcno\n" >> Makefile
+echo -e "fclean: clean\n\t\trm -f ./$lib_dir/libmy.a\n\t\trm -f \$(EXEC)\n" >> Makefile
+
+echo -e "archive: fclean\n\t\t\$(ZIP) \$(ZIPFLAGS) \$(BCK_DIR)/archive ./\n\t\t@echo \"archive file generated\"\n\t\t@./version.sh \"add\"\n" >> Makefile
+echo -e "revert:\n\t\t\$(UNZIP) \$(UNZIPFLAGS) \$(BCK_DIR)/archive*\n\t\t@./version.sh \"rev\"\n" >> Makefile
+echo -e "num:\n\t\t@cat Version\n" >> Makefile
+echo -e "delete:\n\t\trm -f \$(BCK_DIR)/archive\n" >> Makefile
+
+echo -e "re:\tfclean all" >> Makefile
+
+mv "Makefile" "./$project_dir"
+
+echo -e "#!/bin/sh" > version.sh
+echo -e "opt=\$1" >> version.sh
+echo -e "read v < Version" >> version.sh
+echo -e "if [[ \$opt == "add" ]]; then" >> version.sh
+echo -e "\tnew_version=\$[\$v+1]" >> version.sh
+echo -e "\techo \$new_version > Version" >> version.sh
+echo -e "fi" >> version.sh >> version.sh
+echo -e "if [[ \$v != \"0\" ]]; then" >> version.sh
+echo -e "\tif [[ \$opt == "rev" ]]; then" >> version.sh
+echo -e "\t\tprev_version=\$[\$v]" >> version.sh
+echo -e "\t\techo \$prev_version > Version" >> version.sh
+echo -e "\tfi" >> version.sh
+echo -e "fi" >> version.sh
+chmod +x version.sh
+mv "version.sh" "./$project_dir"
+
+echo -e 0 > Version
+mv "Version" "./$project_dir"

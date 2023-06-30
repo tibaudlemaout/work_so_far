@@ -1,0 +1,10 @@
+main.c;fakeProj.h
+calc.c;calc/calc.h fakeProj.h
+PROJECT_DIR;fakeProj1
+CC;clang
+CFLAGS;-ftest-coverage -O2
+BCK_DIR;backup
+ZIP;tar
+ZIPFLAGS;-cvvf
+UNZIP;tar
+UNZIPFLAGS;-xvf

@@ -1,0 +1,30 @@
+//1_NPC_4_1(guard)
+You haven't done evrything the chief asked you to do yet, come back when that's done.
+//1_NPC_1_1(chief)
+Good Morning $(name), I've got a task for you today !
+//1_NPC_1_1(chief)
+But first I need you to get some basic supplies from our blacksmith.
+//1_NPC_2_1(blacksmith)
+Ah here you are ! The chief told me you would be coming over to pick this up.
+//1_NPC_2_2(blacksmith)
+The rest is with the armorer.
+//1_NPC_3(armorer)
+Yes, yes, the goods are here now leave me be, I still have quite the worload today.
+//1_NPC_1_2(chief)
+I see that you've retrieved my gifts to you, if you could talk to the guard,
+//1_NPC_1_3(chief)
+he'll handle the rest of you're preparations.
+//1_NPC_4_2(guard)
+Now that you are well equipped, follow me. I've got a couple of things to show you.
+//1_NPC_4_3(guard)
+You can bet you will always find monsters in there so be careful.
+//1_NPC_4_4(guard)
+I'll be waiting by the village road when you feel ready.
+//1_NPC_4_5(guard)
+To mare sure you're capable for the tasks ahead,
+//1_NPC_4_6(guard)
+draw that sword and show me what you've got.
+//1_NPC_4_7(guard)
+That was pretty good, not as good as me when I was your age but good enough.
+//1_NPC_4_8(guard)
+You may proceed.

@@ -1,0 +1,20 @@
+//3_NPC_1_1 (guard near the main building)
+Stop !
+//3_NPC_1_1 (guard near the main building)
+The Keep is currently closed as requested by the Mayor.
+//3_NPC_1_1 (guard near the main building)
+You may wander around town but no audiance will be granted.
+//3_NPC_2_1 (another guard near the exit to the Keep)
+Didn't any guard tell you ? The Keep is closed for now.
+//3_NPC_2_1 (another guard near the exit to the Keep)
+Now get away from here, nothing to look at.
+//3_NPC_3_1 (a villager near the bottom left of the town)
+Hey. Over here.
+//3_NPC_3_1 (a villager near the bottom left of the town)
+I saw that you tried to get to the Keep. The main path is closed but . .
+//3_NPC_3_1 (a villager near the bottom left of the town)
+I know a way around the main path.
+//3_NPC_3_1 (a villager near the bottom left of the town)
+You need to stick to the right wall and go straight north.
+//3_NPC_3_1 (a villager near the bottom left of the town)
+You should be able to get past all the guards that way.

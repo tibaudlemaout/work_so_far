@@ -1,0 +1,25 @@
+{
+  "name": "epytodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechPromo2027/B-WEB-200-NAN-2-1-epytodo-tibaud.le-maout.git"
+  },
+  "author": "maxence, tibaud, thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechPromo2027/B-WEB-200-NAN-2-1-epytodo-tibaud.le-maout/issues"
+  },
+  "homepage": "https://github.com/EpitechPromo2027/B-WEB-200-NAN-2-1-epytodo-tibaud.le-maout#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+./my_rpg:1: MAJOR:C-O1
+./src/animations/finishing_fight.c:29: MINOR:C-F8
+./src/display/area1.c:48: MINOR:C-F8
+./src/display/area1.c:55: MINOR:C-F8
+./src/display/dungeon1.c:56: MINOR:C-F8
+./src/display/game.c:69: MINOR:C-F8
+./src/events/collision.c:47: MINOR:C-F8
+./src/events/collision.c:58: MINOR:C-F8
+./src/events/collision.c:59: MINOR:C-F8
+./src/events/dungeon1_check.c:49: MAJOR:C-F3
+./src/events/dungeon1_check.c:56: MINOR:C-L3
+./src/events/dungeon1_interaction_management.c:31: MAJOR:C-F3
+./src/events/dungeon1_interaction_management.c:31: MINOR:C-F8
+./src/init/music.c:27: MINOR:C-G8
+./src/loop_selector.c:89: MINOR:C-G8
+./src/loops/fight.c:45: MINOR:C-F8

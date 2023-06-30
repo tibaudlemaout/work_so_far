@@ -1,0 +1,132 @@
+Refined Greatsword//name
+0//hp
+12//atk
+0//def
+0//spd
+#
+Scaled Greatsword//name
+0//hp
+18//atk
+0//def
+0//spd
+#
+Refined Dagger//name
+0//hp
+15//atk
+0//def
+3//spd
+#
+Refined Greataxe//name
+0//hp
+20//atk
+-4//def
+0//spd
+#
+Refined Warhammer//name
+0//hp
+21//atk
+0//def
+-5//spd
+#
+Refined Trident//name
+0//hp
+18//atk
+0//def
+0//spd
+#
+Scaled Mail//name
+35//hp
+0//atk
+9//def
+-1//spd
+#
+Mail of the North//name
+40//hp
+0//atk
+10//def
+0//spd
+#
+Horned Helm//name
+15//hp
+0//atk
+5//def
+0//spd
+#
+Helm of the North//name
+18//hp
+0//atk
+6//def
+0//spd
+#
+Scaled Shield//name
+18//hp
+0//atk
+6//def
+0//spd
+#
+Mirror Greatshield//name
+20//hp
+0//atk
+7//def
+0//spd
+#
+Scaled Boots//name
+9//hp
+0//atk
+2//def
+6//spd
+#
+Boots of the North//name
+12//hp
+0//atk
+3//def
+8//spd
+#
+Apple//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Accorn//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Vial//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Mushroom//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Chicken Leg//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Herbs//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Bones//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Eyeball//name
+0//hp
+0//atk
+0//def
+0//spd
+#

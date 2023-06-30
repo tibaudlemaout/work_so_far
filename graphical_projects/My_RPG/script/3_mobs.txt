@@ -1,0 +1,50 @@
+Noble Mage//name
+//hp
+//atk
+//def
+//spd
+//hp factor
+//atk factor
+//def factor
+//spd factor
+#
+Noble Guard//name
+//hp
+//atk
+//def
+//spd
+//hp factor
+//atk factor
+//def factor
+//spd factor
+#
+Orc Bodyguard//name
+//hp
+//atk
+//def
+//spd
+//hp factor
+//atk factor
+//def factor
+//spd factor
+#
+Noble Priest//name
+//hp
+//atk
+//def
+//spd
+//hp factor
+//atk factor
+//def factor
+//spd factor
+#
+Treasure Horder//name
+//hp
+//atk
+//def
+//spd
+//hp factor
+//atk factor
+//def factor
+//spd factor
+#

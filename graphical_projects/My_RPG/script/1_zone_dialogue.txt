@@ -1,0 +1,22 @@
+// 1_NPC_1_1 (traveler near start of zone)
+Oh you must be the new envoy, I had a request for you.
+// 1_NPC_1_2 (traveler near start of zone)
+You see, since the avalanche it seems that there are more and more monsters lurking
+// 1_NPC_1_3 (traveler near start of zone)
+and its making going trade extremely difficult for poorer folks like me.
+// 1_NPC_1_4 (traveler near start of zone)
+Would you mind helping me by clearing a dozen monsters on the way to Fernsworth ?  
+// 1_NPC_2_1 (guard of village 2 before deeating bob)
+Halt ! None may enter the village of ... for now.
+// 1_NPC_2_2 (guard of village 2 before deeating bob)
+We are currently dealing with a monster problem in the cavern north of here.
+// 1_NPC_2_3 (guard of village 2 before deeating bob)
+And until that is done, i have my orders. Now scram !
+// 1_NPC_2_4 (guard of village 2 after defeating bob)
+Well I'll be damned, judging from all that slime on your boots, it was your doing.
+// 1_NPC_2_5 (guard of village 2 after defeating bob)
+I've gotten word that the slime that resided in the cavern is gone.
+// 1_NPC_2_6 (guard of village 2 after defeating bob)
+You may now enter Fernsworth.
+// 1_NPC_2_7 (guard of village 2 after defeating bob)
+And a small word of adive, the village is not doing so well so be careful.

@@ -1,0 +1,60 @@
+Bandit//name
+80//hp
+30//atk
+15//def
+10//spd
+3//hp factor
+1//atk factor
+1//def factor
+1//spd factor
+#
+Cutthroat//name
+60//hp
+40//atk
+5//def
+20//spd
+2//hp factor
+1//atk factor
+1//def factor
+1//spd factor
+#
+Ruffian//name
+70//hp
+22//atk
+10//def
+12//spd
+1//hp factor
+1//atk factor
+1//def factor
+1//spd factor
+#
+Assassin//name
+40//hp
+50//atk
+0//def
+20//spd
+1//hp factor
+1//atk factor
+0//def factor
+2//spd factor
+#
+Orc//name
+80//hp
+25//atk
+25//def
+10//spd
+5//hp factor
+2//atk factor
+2//def factor
+1//spd factor
+#
+Leader//name
+150//hp
+25//atk
+20//def
+5//spd
+5//hp factor
+2//atk factor
+1//def factor
+1//spd factor
+#

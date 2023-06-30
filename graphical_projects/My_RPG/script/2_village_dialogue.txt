@@ -1,0 +1,72 @@
+//2_NPC_1_1 (mayor first time entering the village)
+Yes ?
+//2_NPC_1_1 (mayor first time entering the village)
+Ah, you must be the envoy from Favorsham, I received a letter regarding your arrival
+//2_NPC_1_1 (mayor first time entering the village)
+You see, the avalanche has cut us off from the South,
+//2_NPC_1_1 (mayor first time entering the village)
+and the mayor of Sherfield Keep has been using it to his advantage.
+//2_NPC_1_1 (mayor first time entering the village)
+He used the commotion to take over our mines,
+//2_NPC_1_1 (mayor first time entering the village)
+and with communication with the authorities impossible, we are powerless.
+//2_NPC_1_1 (mayor first time entering the village)
+Go see our Guard Captain if you wish to help.
+//2_NPC_1_2 (mayor, after bandit leader)
+Oho, I was right to ask your help in this matter.
+//2_NPC_1_2 (mayor, after bandit leader)
+Before I reveal more to you I would need you to talk with the inhabitants.
+//2_NPC_1_2 (mayor, after bandit leader)
+It's just so you get an idea of the situation. 
+//2_NPC_2_1 (Guard Captain (first time meeting him)
+I've heard of you, you defeated the slime in the cavern, thank you again.
+//2_NPC_2_1 (Guard Captain (first time meeting him)
+But you are here on the mayor's order I assume ?
+//2_NPC_2_1 (Guard Captain (first time meeting him)
+Great, but be warned there are bandits running amok on the way to the Keep.
+//2_NPC_2_1 (Guard Captain (first time meeting him)
+If you could deal with some of them it would help us try and reclaim the mine.
+//2_NPC_2_1 (Guard Captain (first time meeting him)
+Once you've defeated about 15 of them, go talk to my second,
+//2_NPC_2_1 (Guard Captain (first time meeting him)
+He should be near the mine entrance.
+//2_NPC_3_1 (villager on the main plaza)
+Oh, you are the envoy from Favorsham.
+//2_NPC_3_1 (villager on the main plaza)
+It's great to see our villages help eachother in those difficult times.
+//2_NPC_4_1 (villager on the main plaza)
+Now that the bandits have fled, I might finally be able to go back to work.
+//2_NPC_4_1 (villager on the main plaza)
+I am a miner and since this mine is the main income of this village,
+//2_NPC_4_1 (villager on the main plaza)
+you have no idea how much this will help us local folk.
+//2_NPC_5_1 (villager near exit house)
+It's still weird to me.
+//2_NPC_5_1 (villager near exit house)
+The bandits came from nowhere and only too over this mine,
+//2_NPC_5_1 (villager near exit house)
+they didn't even bother stealing some of the ore.
+//2_NPC_5_1 (villager near exit house)
+hmmm, something is not adding up here.
+//2_NPC_6_1 (villager on the smaller plaza)
+Oh another new face. Are you here to join the guards ?
+//2_NPC_6_1 (villager on the smaller plaza)
+There has been a lot of new faces amongst the guards, i can't get used to it.
+//2_NPC_7_1 (villager on the smaller plaza)
+With the trade route cut off, the options to make a living are few.
+//2_NPC_7_1 (villager on the smaller plaza)
+But i've heard that the ones in Sherfield Keep are doing well.
+//2_NPC_8_1 (villager near the mayor's house)
+I've lost contact with my family back in Sherfield Keep.
+//2_NPC_8_1 (villager near the mayor's house)
+I wonder why.
+//2_NPC_8_1 (villager near the mayor's house)
+I hope nothing bad happened to them.
+//2_NPC_9_1 (villager near top left house)
+I've seen you asking around how life is here.
+//2_NPC_9_1 (villager near top left house)
+As you might have heard it's pretty tough, but Sherfield Keep,
+//2_NPC_9_1 (villager near top left house)
+As you  might know is the largest settlement here in the North,
+//2_NPC_9_1 (villager near top left house)
+is doing just fine yet they refuse to help us in anyway.

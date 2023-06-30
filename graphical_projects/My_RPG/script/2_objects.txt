@@ -1,0 +1,126 @@
+Steel Greatsword//name
+0//hp
+6//atk
+0//def
+0//spd
+#
+Serrated Dagger//name
+0//hp
+4//atk
+0//def
+2//spd
+#
+Double Sided Axe//name
+0//hp
+8//atk
+-2//def
+0//spd
+#
+Warhammer//name
+0//hp
+8//atk
+0//def
+-2//spd
+#
+Bident//name
+0//hp
+7//atk
+0//def
+0//spd
+#
+Iron Chestplate//name
+20//hp
+0//atk
+4//def
+0//spd
+#
+Decorated Chestplate//name
+28//hp
+0//atk
+7//def
+-1//spd
+#
+Plumed Helmet//name
+8//hp
+0//atk
+2//def
+0//spd
+#
+Great Helm//name
+11//hp
+0//atk
+3//def
+0//spd
+#
+Decorated Shield//name
+15//hp
+0//atk
+5//def
+0//spd
+#
+Old Greatshield//name
+18//hp
+0//atk
+7//def
+0//spd
+#
+Armored Boots//name
+5//hp
+0//atk
+1//def
+4//spd
+#
+Decorated Boots//name
+7//hp
+0//atk
+2//def
+5//spd
+#
+Apple//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Accorn//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Vial//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Mushroom//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Chicken Leg//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Herbs//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Bones//name
+0//hp
+0//atk
+0//def
+0//spd
+#
+Eyeball//name
+0//hp
+0//atk
+0//def
+0//spd
+#

@@ -1,0 +1,10 @@
+// 2_NPC_1_1 (Hermit near his tent)
+I need your help with the bandits.
+// 2_NPC_1_1 (Hermit near his tent)
+I just want to live peacefully here, but recently many bandits have set foot here.
+// 2_NPC_1_1 (Hermit near his tent)
+Could you get rid of some for me ? maybe around 20 so they dont come back.
+// 2_NPC_1_2 (Guard near entrance to the mine)
+I've seen you dispatch quite a few bandits.
+// 2_NPC_1_2 (Guard near entrance to the mine)
+Help us out in the mines, there are even more of them in there.

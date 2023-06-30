@@ -1,0 +1,25 @@
+The formating of the script file goes as such:
+
+• The letter ‘A’,
+• Two integers corresponding to the departure x- and y-coordinates,
+• Two integers corresponding to the arrival x- and y-coordinates,
+• One integer corresponding to the aircraft’s speed (in pixels per second),
+• One integer corresponding to the delay (in seconds) before the aircraft takes off.
+Control towers are described by:
+• The letter ‘T’,
+• Two integers corresponding to the control tower x- and y-coordinates,
+• One integer corresponding to the radius of the tower’s control area (corresponding to the percentage
+of the greatest side of the window in pixel)
+
+
+the first character can be either A or T, A for airplane entities and T for tower entities.
+
+A [tab] starting x position [space] starting y position [tab] end x position [space] end y position [tab] speed [tab] delay
+
+T [tab] x position [space] y position [tab] tower radius
+
+exemples:
+
+A   1200 930    150 250 12  5
+A   12 1    1920 1080   10  0
+T   600 600 12

@@ -1,0 +1,11 @@
+./fakeProj1/calc.c:1: MINOR:C-G1
+./fakeProj1/calc.c:3: MINOR:C-L2
+./fakeProj1/include/calc/calc.h:1: MINOR:C-G1
+./fakeProj1/include/calc/calc.h:1: MAJOR:C-H2
+./fakeProj1/include/fakeProj.h:1: MINOR:C-G1
+./fakeProj1/include/fakeProj.h:1: MAJOR:C-H2
+./fakeProj1/include/fakeProj.h:1: MINOR:C-O4
+./fakeProj1/main.c:1: MINOR:C-G1
+./fakeProj1/main.c:3: MINOR:C-L2
+./fakeProj1/main.c:4: MINOR:C-L2
+./fakeProj1/main.c:5: MINOR:C-L2

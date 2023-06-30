@@ -1,0 +1,11 @@
+//name
+//hp
+//atk
+//def
+//spd
+//hp factor
+//atk factor
+//def factor
+//spd factor
+//lvl
+//exp

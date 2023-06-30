@@ -1,0 +1,9 @@
+main.c;fakeProj.h
+EXEC;fakeProj
+calc.c;calc/calc.h fakeProj.h
+PROJECT_DIR;fakeProj1
+BCK_DIR;backup
+ZIP;tar
+ZIPFLAGS;-cvvf
+UNZIP;tar
+UNZIPFLAGS;-xvf

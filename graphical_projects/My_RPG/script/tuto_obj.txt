@@ -1,0 +1,28 @@
+Rusty Sword
+0
+2
+0
+0
+1
+3
+Old Shield
+0
+0
+1
+0
+1
+3
+Old Bronze Chestplate
+5
+0
+1
+0
+1
+2
+Worn Boots
+0
+0
+0
+1
+1
+4

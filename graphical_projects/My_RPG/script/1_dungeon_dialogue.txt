@@ -1,0 +1,32 @@
+// 1_NPC_1_1 (guard inside the dungeon before bob/mob is killed)
+What is a kid like you doing in here ?! It's dangerous.
+// 1_NPC_1_1 (guard inside the dungeon before bob/mob is killed)
+...
+// 1_NPC_1_1 (guard inside the dungeon before bob/mob is killed)
+Seems like you don't plan on leaving, so why don't you help me out ?
+// 1_NPC_1_1 (guard inside the dungeon before bob/mob is killed)
+I would need you to kill at least 25 monsters to prove you can be of help.
+// 1_NPC_1_1 (guard inside the dungeon before bob/mob is killed)
+After that come back to me and I'll give you your next task.
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+You're not half bad with that weapon of yours.
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+Allow me to explain the situation we are in a bit more.
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+After the avalanche monsters started flocking to our trading routes and mines,
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+It's made doing any kind of trade within ourselves extremey difficult
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+and since the route to the southern trade post are cut off we are alone 
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+dealing with this issue.
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+Now if we want to get control of this mine back,
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+We need to get rid of the leading monster, he is located northeast of here.
+// 1_NPC_1_2 (guard after defeating 25 mobs)
+If you manage to get rid of him, it would be a start to fix the situation.
+// 1_NPC_1_3 (guard after defeating bob)
+You actually went and did it !
+// 1_NPC_1_3 (guard after defeating bob)
+Hurry back to Fernsworth and give the news, this will be of huge help.
