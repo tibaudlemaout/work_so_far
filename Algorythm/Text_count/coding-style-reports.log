@@ -1,0 +1,10 @@
+./lib/libmy.a:1: MAJOR:C-O1
+./src/#main.c#:1: MAJOR:C-O1
+./src/arrange_display.o:1: MAJOR:C-O1
+./src/check.o:1: MAJOR:C-O1
+./src/count_letters.o:1: MAJOR:C-O1
+./src/display.o:1: MAJOR:C-O1
+./src/do_arg_t.o:1: MAJOR:C-O1
+./src/main.o:1: MAJOR:C-O1
+./src/remaining_letters.o:1: MAJOR:C-O1
+./text_count:1: MAJOR:C-O1
