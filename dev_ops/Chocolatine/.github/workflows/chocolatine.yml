@@ -1,0 +1,65 @@
+name: chocolatine
+run-name: ${{ github.actor}} trying to set up error annotations
+
+on:
+  push:
+    branches-ignore:
+      - "ga-ignore-*"
+  pull_request:
+    branches-ignore:
+      - "ga-ignore-*"
+
+env:
+  MIRROR_URL: "git@github.com:EpitechPromo2027/B-DOP-200-NAN-2-1-chocolatine-tibaud.le-maout.git"
+  EXECUTABLES: "binary"
+
+jobs:
+  check_coding_style:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/epitech/coding-style-checker:latest
+    steps:
+      - name: checkout current repo
+        uses: actions/checkout@v3
+      - name: execute coding style
+        run: check.sh $(pwd) $(pwd) ; cat coding-style-reports.log
+      - name: print error annotations
+        run: |
+            if [ -s "coding-style-reports.log" ]; then
+              cat coding-style-reports.log | grep -v '^$' | while read line ; do echo "::error:: $line" ; done
+              exit 1 ;
+            fi
+
+  check_program_compilation:
+    needs: check_coding_style
+    runs-on: ubuntu-latest
+    container: epitechcontent/epitest-docker
+    steps:
+      - name: checkout current repo
+        uses: actions/checkout@v3
+      - name: use make
+        run: make
+        timeout-minutes: 2
+      - name: clean repo
+        run: make clean
+      - name: check for executables
+        run: date
+
+  run_tests:
+    needs: [check_coding_style, check_program_compilation]
+    runs-on: ubuntu-latest
+    container: epitechcontent/epitest-docker
+    steps:
+      - name: check current repo
+        uses: actions/checkout@v3
+      - name: check tests
+        run: make tests_run
+        timeout-minutes: 2
+
+  push_to_mirror:
+    needs: [check_coding_style, check_program_compilation, run_test]
+    if: ${{ github.event_name == 'push' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: check current repo
+        uses: actions/checkout@v3
