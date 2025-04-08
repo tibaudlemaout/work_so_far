@@ -1,0 +1,17 @@
+Here are the users
+new;0ECF270B-EFB4-405A-998C-2065DA54A457;new2;1B5B004F-01E9-44F1-B068-694F83DBD399
+
+name;new
+uuid;0ECF270B-EFB4-405A-998C-2065DA54A457
+status;0
+team
+message
+channel
+
+name;new2
+uuid;1B5B004F-01E9-44F1-B068-694F83DBD399
+status;0
+team
+message
+channel
+

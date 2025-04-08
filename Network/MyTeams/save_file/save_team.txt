@@ -1,0 +1,17 @@
+Here is teams
+team;413B4B4C-A38F-410D-9B3A-AF3E1E22164C;["team here"];D195CB33-20BF-46D1-93B2-7AC09A170326
+
+name_team;team
+uuid;413B4B4C-A38F-410D-9B3A-AF3E1E22164C
+description;exemple
+people;new
+thread
+channel
+
+name_team;["team here"]
+uuid;D195CB33-20BF-46D1-93B2-7AC09A170326
+description;["team description"]
+people;new2
+thread
+channel
+
