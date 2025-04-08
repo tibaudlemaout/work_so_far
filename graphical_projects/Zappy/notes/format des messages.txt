@@ -1,0 +1,27 @@
+format des messages:
+
+tik:
+    "tik -id *id* -s *searching id* -l *lvl* -i *inventory*"
+    "tok -id *id* -l *lvl* -i *inventory*"
+
+no food:
+    "hungry -id *id* -l *lvl* -i *inventory*"
+    "food -id *id* -q *qte* -o *orientation* -l *lvl* -i *inventory*"
+    "food_ok -id *id* -s *searching id*
+
+ready:
+    "lvl_up -id *id* -l *lvl* -i *inventory*"
+    "check -id *id* -s *searching id*" -i *inventory*
+    "enough -id *id*"
+    "not_enough -id *id*"
+
+no egg:
+    "extermination"
+    "end_exec"
+
+born:
+    "born -id *id*"
+
+
+representation inventaire:
+[*qte food*, *qte linemate*, *qte deraumere*, *qte sibur*, *qte mendiane*, *qte phiras*, *qte thystame*]

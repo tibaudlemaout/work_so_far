@@ -1,0 +1,110 @@
+arrive d'un coté: ressort de l'autre
+
+trois parties: 
+    serveur fait tourner le monde
+        binaire:
+            port
+            dimensions
+            équipes
+            nb de trantorien par équipe
+            fréquence
+        en C avec select
+        pas de thread et fork
+        plusieurs protocoles
+        gestion du temps propre
+        en temps réel et fait apparraitre des ressources
+        se régénère chaque 20 unités de temps
+        positionné aléatoirement
+        bloque de manière intelligente si il y a rien à faire (sauf commandes)
+        tant que nom pas reçu: peut pas savoir quel type de client
+        le monde se lance meme si il n'y a aucun client
+        peut recevoir jusqu'à 10 requètes d'un meme client, si plus: ignorée
+        dc si fait action répétitive, envoyer plusieurs d'un coup
+    ia
+        binaire:
+            port
+            nom
+            nom de l'équipe
+        langage libre
+        respecte protocole donné
+        essaie de survivre et evoluer niveau 8
+        perso spawn grâce à oeuf
+        chaque oeuf est reservé à une équipe
+        qd se connecte: si oeuf de l'équipe, spawn à cet endroit ds direction aléatoire
+        si pas assez d'oeuf, ne se connecte pas
+        démarre avec 10 unités de vie
+        si reçoit "dead" le perso est mort
+        inventaire perdu à la mort
+    graphique
+        binaire:
+            port
+            nom
+            nom de l'équipe
+        c++
+        protocole imposé
+        affiché le max de chose (monde, ressources, inventaire...)
+        plus jolie possible
+        interraction utilisateur
+        80 type de données
+
+trantoriens: aliens du jeu
+    doivent survivre et évoluer
+    nourriture consomée au fur et a mesure
+    monte de niveau pour gagner: 6 membres qui montent lvl 8
+    trouvent de pierres precieuses et peuvent un rituel p level up
+    sont limités à certaines actions
+    pas de collisions
+    pas de notion de direction et de coordonnées
+    voit juste devant lui: nb de rangées = niveau
+    numéroté de gauche à droite: [1, 2, 3...]
+    connaissent taille map
+    si plus d'oeuf pour l'équipe, détruire tous les oeufs à vue
+
+ressources:
+    pierres précieuses:
+        pour monter de niveau
+    nourriture:
+        pour ne pas mourrir
+        fait tenir 126 unité de temps
+        peut être stocké à l'infini
+    peut en avoir plusieurs par case
+    inventaire individuelle
+    objets peuvent être récupérés mais aussi déposés
+
+rituel:
+    nb de joueurs du même niveau sur la même case
+    pas forcément de la même équipe
+    certain nb de ressources sur la case (pas dans l'inventaire)
+    vérification de coditions au début et à la fin du rituel
+    à la fin, si c'est bon, tous les participants lvl et toutes pierres retirées
+    afficher petite animation
+
+communication:
+    comm pas sécu
+    broadcast: envoient chaine de caractères libre
+    transmise à tous les trantoriens
+    pas possible d'intentifier l'orateur
+    détecte l'origine du son en direction
+        raytracer: voir par quelle case ça passe en premier
+    pas hésiter à dire de la merde
+    gérer cryptage des messages
+
+commandes:
+    action: type de commandes
+    command: commende envoyée au serveur
+    temps: temps avant que ce soit réalisé
+    response: retour du serveur
+    
+    fork: pour pondre, pas de restriction mais long, dc ne doit pas mourrir avant
+    liste:
+        Forward: move up
+        Right/Left: turn right / left
+        Look: look around and get infos
+        Inventory: reçoit infos inventaire
+        Broadcast text: envoit un messages
+        Connect_nbr: renvoit le nb d'oeuf dispos
+        Fork: ajouter un nv oeuf
+        Eject: pousse un perso ou détruit un oeuf
+        Take object: prend object
+        Set object: pose object
+        Incantation: commence une incantation: long, si ejecté, peut echouer si y a plus les ressources

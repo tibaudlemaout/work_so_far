@@ -1,0 +1,11 @@
+personnages / differentes couleurs par équipe / différents skins par niveaux
+map
+bouffe
+pierres
+animation messagesliste perso
+liste équipes
+animation montée de niveau
+oeufs
+temps
+jour nuit
+deco
