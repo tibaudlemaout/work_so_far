@@ -1,0 +1,6 @@
+./.stack-work/install/x86_64-linux/04ef5deb763df1e7e6afb20f417ac9ec577c7b837632a83ecc18fa9e6cc403d6/9.2.5/bin/wolfram-exe:1: MAJOR:C-O1
+./.stack-work/install/x86_64-linux/04ef5deb763df1e7e6afb20f417ac9ec577c7b837632a83ecc18fa9e6cc403d6/9.2.5/lib/x86_64-linux-ghc-9.2.5/libHSwolfram-0.1.0.0-5iVQa0jqe7M15WwpFBVvIg-ghc9.2.5.so:1: MAJOR:C-O1
+./.stack-work/install/x86_64-linux/04ef5deb763df1e7e6afb20f417ac9ec577c7b837632a83ecc18fa9e6cc403d6/9.2.5/lib/x86_64-linux-ghc-9.2.5/wolfram-0.1.0.0-5iVQa0jqe7M15WwpFBVvIg/libHSwolfram-0.1.0.0-5iVQa0jqe7M15WwpFBVvIg.a:1: MAJOR:C-O1
+./app/Main.hs:54: MINOR:H-F4 # too long function
+./app/Main.hs:94: MINOR:H-F3 # too long line
+./app/Main.hs:97: MINOR:H-F3 # too long line
